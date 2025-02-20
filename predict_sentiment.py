@@ -49,3 +49,17 @@ custom_reviews = [
 ]
 
 predict_review_sentiment(custom_reviews)
+
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+y_pred = (model.predict(X_test) > 0.5).astype("int32")
+cm = confusion_matrix(y_test, y_pred)
+
+plt.figure(figsize=(6,5))
+sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+plt.title("Confusion Matrix")
+plt.show()
