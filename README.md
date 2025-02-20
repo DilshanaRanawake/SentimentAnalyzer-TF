@@ -30,7 +30,7 @@ This project uses an **LSTM (Long Short-Term Memory)** network with TensorFlow t
 ## 📌 Demo Screenshot
 Here’s an example of the model predicting sentiment:  
 
-![Prediction Example](https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/1.png)  
+<img src="https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/1.png" width="600" />
 
 ---
 
@@ -39,18 +39,17 @@ Here’s an example of the model predicting sentiment:
 ### 📈 **Training Accuracy vs. Validation Accuracy**
 This graph shows how the model improves over **epochs**.
 
-![Accuracy Graph](https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/3.png)
+<img src="https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/3.png" width="600" />
 
 ### 📉 **Training Loss vs. Validation Loss**
 The loss should decrease over time as the model learns.
 
-![Loss Graph](https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/2.png)
+<img src="https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/2.png" width="600" />
 
 ### 🔎 **Confusion Matrix**
 Displays how well the model classifies positive & negative reviews.
 
-![Confusion Matrix](https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/4.png)
-
+<img src="https://github.com/DilshanaRanawake/SentimentAnalyzer-TF/blob/main/screenshots/4.png" width="600" />
 ---
 
 ## 🎯 Future Improvements
